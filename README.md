@@ -18,7 +18,7 @@ pop art：[百度网盘](https://pan.baidu.com/s/1hkjJQrwIPHWEasZmL3aViA?pwd=4ux
 watercolor painting：[百度网盘](https://pan.baidu.com/s/1kQHr0Plbcux9cZ9GOdfWNA?pwd=atve)  [google drive](https://drive.google.com/file/d/1QGgzsiXQgJt_gjRMFQbv5_qS0kgntzBV/view?usp=drive_link)  
 
 ## 1. 介绍
-此仓库包含MMFS部分训练和测试代码，也提供了前三个阶段的预训练模型测试
+此仓库包含MMFS部分训练和测试代码，也提供了前四个阶段的预训练模型
 
 ## 2. 配置依赖项
 安装requirements.txt中依赖项
