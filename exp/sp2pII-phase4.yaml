@@ -33,14 +33,14 @@ training:
   lambda_GAN: 1.0
   lambda_L1: 1.0
   lambda_ST: 0.5
-  lambda_CLIP: 1.0 # 这个参数需要调整
-  lambda_PROJ: 100.0 # 这个参数需要调整(仅使用image prompt情况)
-  ema: 0.99 # 1-1/n
-  text_prompt: "not existed"
-  image_prompt: "" # 如果这个文件存在就用image prompt, 否则用text prompt
-  lr: 0.0002 # 这个参数需要调整, 大概1e-5 ~ 2e-4之间
+  lambda_CLIP: 1.0 # adjustable parameter
+  lambda_PROJ: 100.0 # adjustable parameter
+  ema: 0.99 # adjustable parameter
+  text_prompt: "" # description of reference style
+  image_prompt: "" # path to reference style image
+  lr: 0.0002 
   lr_policy: linear
-  n_epochs: 200 # 这个一般500 iter就够了
+  n_epochs: 200 
   n_epochs_decay: 10
   phase: 4
   pretrained_model: pretrained_models/phase3_pretrain_10000.pth
