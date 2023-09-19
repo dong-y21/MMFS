@@ -12,12 +12,12 @@ from models.style_based_pix2pixII_model import Stylizer, TrainingPhase
 if __name__ == '__main__':
     # define & parse args
     parser = argparse.ArgumentParser(description='sp2pII test')
-    parser.add_argument('--ckpt', type=str, default='./checkpoints/watercolor_painting/epoch_latest.pth')
-    parser.add_argument('--in_folder', type=str, default='./example/source')
-    parser.add_argument('--out_folder', type=str, default='./example/outputs/zero-shot/watercolor_painting')
+    parser.add_argument('--ckpt', type=str, default='') # ./checkpoints/watercolor_painting.pth
+    parser.add_argument('--in_folder', type=str, default='') # ./example/source
+    parser.add_argument('--out_folder', type=str, default='') # ./example/outputs/zero-shot/watercolor_painting
     parser.add_argument('--phase', type=int, default=3)
-    parser.add_argument('--txt_prompt', type=str, default='watercolor painting')
-    parser.add_argument('--img_prompt', type=str, default='') # ./example/reference/04.png
+    parser.add_argument('--txt_prompt', type=str, default='') # watercolor painting
+    parser.add_argument('--img_prompt', type=str, default='') # ./example/reference/04.png 
     parser.add_argument('--device', type=str, default='cuda:0')
     args = parser.parse_args()
     args.phase = TrainingPhase(args.phase)
