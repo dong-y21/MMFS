@@ -15,9 +15,9 @@ if __name__ == '__main__':
     parser.add_argument('--cfg_file', type=str, default='./exp/sp2pII-phase2.yaml')
     parser.add_argument('--test_img', type=str, default='', help='path to your test img')
     parser.add_argument('--test_video', type=str, default='')
-    parser.add_argument('--test_folder', type=str, default='./example/source')
-    parser.add_argument('--ckpt', type=str, default='./pretrained_models/phase2_pretrain_90000.pth')
-    parser.add_argument('--overwrite_output_dir', type=str, default='./example/outputs/multi-model')
+    parser.add_argument('--test_folder', type=str, default='') # ./example/source
+    parser.add_argument('--ckpt', type=str, default='') # ./pretrained_models/phase2_pretrain_90000.pth
+    parser.add_argument('--overwrite_output_dir', type=str, default='') # ./example/outputs/multi-model
     parser.add_argument('--gpus', type=str, default='0')
     args = parser.parse_args()
 
