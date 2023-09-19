@@ -1,5 +1,5 @@
 common:
-  name: sp2pII-phase4
+  name: sp2pII-phase4 # name of saving folder
   model: style_based_pix2pixII
   gpu_ids:
   - 0
