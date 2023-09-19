@@ -38,9 +38,10 @@ Official PyTorch implementation of MMFS: Multi-Modal Face Stylization with a Gen
 
 Fine-tuning for one-shot and zero-shot:
 ```bash
-python train.py --cfg_file ./exp/sp2pII-phase4.yaml
+python train.py --cfg_file ./exp/sp2pII-phase4.yaml --image_prompt
 ```
 - **Required Configs in [sp2pII-phase4.yaml](exp/sp2pII-phase4.yaml)**:   
+***name:*** name of saving folder   
 ***pretrained_model:*** path to pretrained phase3 model   
 **(one-shot only)** ***image_prompt:*** path to reference style image   
 **(zero-shot only)** ***text_prompt:*** description of reference style   
