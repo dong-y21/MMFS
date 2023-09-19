@@ -20,22 +20,12 @@ import sys
 def main():
     # parse arguments
     parser = argparse.ArgumentParser(description='Style Master')
-    parser.add_argument('--cfg_file', type=str, default='./exp/sp2pII-phase4.yaml')
-    parser.add_argument('--image_prompt', type=str, default='') #./example/reference/04.png
-    parser.add_argument('--text_prompt', type=str, default='watercolor painting')
-    parser.add_argument('--name', type=str, default='watercolor_painting')
+    parser.add_argument('--cfg_file', type=str, default='') # ./exp/sp2pII-phase4.yaml
     
     args = parser.parse_args()
 
     # parse config
     config = parse_config(args.cfg_file)
-
-    if args.image_prompt:
-        config['training']['image_prompt'] = args.image_prompt
-    if args.text_prompt:
-        config['training']['text_prompt'] = args.text_prompt
-    if args.name:
-        config['common']['name'] = args.name
 
     for group in config:
         print(group + ':')
