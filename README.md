@@ -7,7 +7,7 @@ Official PyTorch implementation of MMFS: Multi-Modal Face Stylization with a Gen
 > Mengtian Li<sup>1</sup>, Yi Dong<sup>2</sup>, Minxuan Lin<sup>1</sup>, Haibin Huang<sup>1</sup>, Pengfei Wan<sup>1</sup>, Chongyang Ma<sup>1</sup>,    
 > _<sup>1</sup>Kuaishou Technology, Beijing, China_  
 > _<sup>2</sup>Tsinghua University, Beijing, China_  
-> In: Pacific Graphics 2023 (**CFG**) 
+> In: Pacific Graphics 2023 (**CGF**) 
 > *[arXiv preprint](https://arxiv.org/abs/2305.18009)* 
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/dongyi/MMFS)
