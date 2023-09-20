@@ -2,7 +2,6 @@
 
 Official PyTorch implementation of MMFS: Multi-Modal Face Stylization with a Generative Prior.
 
-
 > **MMFS: Multi-Modal Face Stylization with a Generative Prior**,             
 > Mengtian Li<sup>1</sup>, Yi Dong<sup>2</sup>, Minxuan Lin<sup>1</sup>, Haibin Huang<sup>1</sup>, Pengfei Wan<sup>1</sup>, Chongyang Ma<sup>1</sup>,    
 > _<sup>1</sup>Kuaishou Technology, Beijing, China_  
@@ -11,6 +10,9 @@ Official PyTorch implementation of MMFS: Multi-Modal Face Stylization with a Gen
 > *[arXiv preprint](https://arxiv.org/abs/2305.18009)* 
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/dongyi/MMFS)
+
+<img width="1296" alt="image" src="https://github.com/dong-y21/MMFS/assets/106572559/d40e2d02-66d6-4ea7-bb43-d7f9d73ea5e1">
+
 
 
 
